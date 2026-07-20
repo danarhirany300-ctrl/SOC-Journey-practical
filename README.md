@@ -22,3 +22,28 @@ Reviewed a high-severity PowerShell alert and identified the questions that shou
 
 ## Key Takeaway
 Evidence → Timeline → Conclusion
+
+---
+
+# 📅 Day 102 – Authentication Alert Investigation
+
+## 🎯 Objective
+Learn how to investigate authentication alerts using evidence instead of assumptions.
+
+## 📚 What I Learned
+- Failed logins do not always indicate an attack.
+- Context such as IP address, device, MFA, and location is essential.
+- A timeline helps reveal the sequence of events.
+- Evidence should be collected before making a decision.
+
+## 🛠 Practical Exercise
+Reviewed an authentication alert with multiple failed logins followed by a successful login. Identified additional evidence needed before determining whether the activity was malicious or legitimate.
+
+## 💡 Skills Practiced
+- Authentication analysis
+- Evidence collection
+- Timeline creation
+- Critical thinking
+
+## ✅ Key Takeaway
+Never classify an authentication alert using only the number of failed logins. Always investigate the surrounding context first.
