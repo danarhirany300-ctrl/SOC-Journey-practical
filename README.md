@@ -72,3 +72,28 @@ Analyzed authentication logs to identify whether the activity matched password s
 
 ## ✅ Key Takeaway
 The pattern of authentication attempts is often more important than the number of failed logins. Understanding that pattern helps accurately identify the attack type.
+
+---
+
+# 📅 Day 104 – Authentication Investigation: Benign or Malicious?
+
+## 🎯 Objective
+Learn how to determine whether an authentication alert represents normal user behavior or a security incident.
+
+## 📚 What I Learned
+- Authentication alerts require context before making a decision.
+- Trusted devices, expected locations, and successful MFA often indicate legitimate activity.
+- Analysts should gather evidence before escalating.
+- Closing a benign alert is just as important as escalating a malicious one.
+
+## 🛠 Practical Exercise
+Investigated an authentication alert by reviewing sign-in logs, device information, MFA status, IP reputation, and location. Determined that the activity was consistent with normal user behavior.
+
+## 💡 Skills Practiced
+- Authentication investigation
+- Identity analysis
+- Evidence-based decision making
+- Incident classification
+
+## ✅ Key Takeaway
+A good SOC analyst knows when **not** to escalate. Decisions should always be based on evidence, not assumptions.
