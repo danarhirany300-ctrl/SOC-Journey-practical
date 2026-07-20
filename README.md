@@ -47,3 +47,28 @@ Reviewed an authentication alert with multiple failed logins followed by a succe
 
 ## ✅ Key Takeaway
 Never classify an authentication alert using only the number of failed logins. Always investigate the surrounding context first.
+
+---
+
+# 📅 Day 103 – Password Spraying vs. Brute Force
+
+## 🎯 Objective
+Understand how to distinguish password spraying attacks from brute-force attacks.
+
+## 📚 What I Learned
+- Password spraying targets many accounts using a small number of passwords.
+- Brute-force attacks target one account with many password attempts.
+- Authentication patterns are more important than individual failed logins.
+- Successful logins after failed attempts require additional investigation.
+
+## 🛠 Practical Exercise
+Analyzed authentication logs to identify whether the activity matched password spraying or brute force. Practiced identifying additional evidence needed before escalating the incident.
+
+## 💡 Skills Practiced
+- Authentication log analysis
+- Attack pattern recognition
+- Incident triage
+- Evidence collection
+
+## ✅ Key Takeaway
+The pattern of authentication attempts is often more important than the number of failed logins. Understanding that pattern helps accurately identify the attack type.
